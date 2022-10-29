@@ -1,6 +1,3 @@
-a = ["1","2"]
+a = "pawel"
+b = "gawel"
 
-
-a.remove("1")
-
-print(a)

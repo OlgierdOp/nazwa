@@ -1,0 +1,9 @@
+def min_of_three(a, b, c) -> int:
+    lista = [a, b, c]
+    min = lista[0]
+    for element in lista:
+        if element < min:
+            min = element
+    return min
+
+print(min_of_three(8,55,10))
